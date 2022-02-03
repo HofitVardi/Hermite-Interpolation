@@ -302,8 +302,8 @@ def create_fig_(k):
 
     if (k==7):  ###  Figure 7  ###
         def sample(t):  # Sample a curve's value and tangent direction at the parmeter t.
-            p = np.array([t,np.sin(t)])     # Change p and v with accordance to your chosen curve.
-            v = np.array([1,np.cos(t)])
+            p = np.array([t,np.sin(t)+np.cos(t)])     # Change p and v with accordance to your chosen curve.
+            v = np.array([1,np.cos(t)-np.sin(t)])
             return np.array([p,v/norm(v)])
 
         ERR = []    # list of maximal errors in the approximation by IHB.
