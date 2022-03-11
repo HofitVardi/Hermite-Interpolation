@@ -1,5 +1,5 @@
 # Hermite-Interpolation
-A complementary code for "Geometric Hermite Interpolation in $\mathbb{R}^n$"
+A complementary code for "Geometric Hermite Interpolation in $\mathbb{R}^n$ by refinements"
 
 The atteched files contains implementions of the B'ezier average computation and of the modified LR-algorithms as well as several examples.
 
